@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>W02 - Teach</title>
-	<link rel="stylesheet" href="/css/main.css">
-	<script src="js.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
-	<div id="firstDiv">
-		<button onclick="clickButton()">Click Me</button>	
-		<input id="firstInput" placeholder="Type the name of a color!">	
-		<button onclick="changeColor(firstDiv, firstInput)">Change Color</button>
+	<div id="firstDiv" class="rounded">
+		<p>The first div</p>
+		<button type="button" class="btn btn-primary" onclick="clickButton()">Click Me</button>	
+		<input type="text" id="firstInput" placeholder="Type the name of a color!">	
+		<button type="button" class="btn btn-secondary">Change Color</button>
 	</div>
 	
-	<div id="secondDiv">
-		<button onclick="clickButton()">Click Me</button>
-		<input id="secondInput" placeholder="Type the name of a color!">	
-		<button onclick="changeColor(secondDiv, secondInput)">Change Color</button>
+	<div id="secondDiv" class="rounded">
+		<p>The second div</p>
+		<button type="button" class="btn btn-primary" onclick="clickButton()">Click Me</button>
+		<input type="text" id="secondInput" placeholder="Type the name of a color!">	
+		<button type="button" class="btn btn-secondary">Change Color</button>
 	</div>
 
-	<div id="thirdDiv">
-		<button onclick="clickButton()">Click Me</button>
-		<input id="thirdInput" placeholder="Type the name of a color!">
-		<button onclick="changeColor(thirdDiv, thirdInput)">Change Color</button>
+	<button id="fadeButton">Toggle the third div!</button>
+
+	<div id="thirdDiv" class="rounded">
+		<p>The third div</p>
+		<button type="button" class="btn btn-primary" onclick="clickButton()">Click Me</button>
+		<input type="text" id="thirdInput" placeholder="Type the name of a color!">
+		<button type="button" class="btn btn-secondary">Change Color</button>
 	</div>
+
+
 </body>
