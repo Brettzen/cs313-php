@@ -1,0 +1,36 @@
+div {
+	width: 25%;
+	margin: 25px auto;
+	padding: 50px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+div:hover {
+	font-weight: bold;
+}
+
+input,
+button {
+	padding: 15px;
+	margin: 5px 0;
+	display: block;
+}
+
+#firstDiv {
+	background: red;
+}
+
+#secondDiv {
+	background: green;
+}
+
+#thirdDiv {
+	background: blue;
+}
+
+#fadeButton {
+	margin: auto;
+}
+
+
